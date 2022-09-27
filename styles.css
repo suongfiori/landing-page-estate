@@ -311,15 +311,10 @@ footer h2 {
 
 /* Footer */
 
-footer {
-    /* background-color: var(--light);
-    color: var(--dark-blue); */
-    padding: 3rem;
-}
 .footer-container {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
-    padding: 2rem auto;
+    padding: 8  rem auto;
 }
 
 footer li {
@@ -357,11 +352,12 @@ footer .footer-container .social {
 }
 /* Login */
 .login {
-    margin-top: 9rem;
+    margin-top: 10rem;
     display: grid; 
     grid-template-columns: 40% auto;
     min-height: 100vh;
     padding-right: 3rem;
+    margin: 10rem auto;
 }
 .login-container,
 .login-container form {
@@ -399,6 +395,13 @@ footer .footer-container .social {
 .login-container form input {
     height: 3.5rem;
     font-size: 1.5rem;
+}
+.login-img img,
+.sign-up img {
+max-width: 100%;
+max-height: 100%;
+object-fit: fill;
+object-position: center;
 }
 /* video */
 .video-container {
